@@ -11,7 +11,10 @@ This is the source code to the original Small-C as written by Ron Cain and publi
 
 * C Users Group Vol 9. This contains Mike Bernson's Small C. This is an 8080 version and uses a special assembler which is provided. The original was got going via BDS C.SIG/M Vol 149 This includes C86 adapted by Glen FisherSIG/M Vol 224 This contains a floating point, Z80 version of Small C. There is also a Z80 assembler and linker. There are some formatted I/O facilities. The programming constructs are those in the original compiler. Modifications by J.R.Van Zandt.
 
-* "A book on C" by R.E.Berry and B.A.E.Meekings. (Macmillan 1984) This includes a listing of 'Rat.C' which is very similar to Ron Cain's version but has useful cross-referrence listings etc. This reference is also worth examining if you want to adapt the compiler to other CPU's. It's also quite a good introductory low priced text on C in general.
+* "A book on C" by R.E.Berry and B.A.E.Meekings. (Macmillan 1984) This includes a listing of 'Rat.C' which is very similar to Ron Cain's version but has useful cross-reference listings etc. This reference is also worth examining if you want to adapt the compiler to other CPUs.
+
+### Known bugs in v1.1
+* function arguments must be declared in the same order as they appear in the function header, otherwise Bad Things Happen. (see Dr. Dobbs Nr.52, Feb 1981 )
 
 ### Example output
 
