@@ -27,7 +27,8 @@ main()
     int a,b,c;
     print("Hello, world");
     c = a*b+5;
-}```
+}
+```
 
 Resulting 8080 code:
 
@@ -68,4 +69,5 @@ main:
 cc1:    DB 72L101L108L108L111L44L32L119L111L114
         DB 108L100L0
 
-;0 errors in compilation.```
+;0 errors in compilation.
+```
